@@ -8,6 +8,8 @@ badges:
 
 ### Links
 
+{{ eva_download_button("bowden") }}
+
 {{ eva_link("bowden") }}
 
 {{ onshape_link("bowden") }}
