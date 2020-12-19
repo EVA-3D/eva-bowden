@@ -1,4 +1,4 @@
-Item No.,Quantity,Name,Material
+Item,Quantity,Name,Material
 1,1,v6_face,PETG
 2,2,face_belt_grabber,PETG
 3,1,V6-175-SINK,- None -
@@ -6,12 +6,12 @@ Item No.,Quantity,Name,Material
 5,1,V6-BLOCK-CARTRIDGE,- None -
 6,1,V6-NOZZLE-ALL,- None -
 7,1,SOCK,- None -
-8,1,4010 FAN,- None -
-9,1,4040_fan_face,PETG
-10,6,DIN 912 M3 20 mm,- None -
-11,23,"M3  Hex nut ",- None -
-12,5,DIN 912 M3 8 mm,- None -
-13,6,DIN 912 M3 10 mm,- None -
+8,5,DIN 912 M3 8 mm,- None -
+9,1,4010 FAN,- None -
+10,1,4040_fan_face,PETG
+11,6,DIN 912 M3 20 mm,- None -
+12,25,"M3  Hex nut ",- None -
+13,8,DIN 912 M3 10 mm,- None -
 14,1,top_endstop_plug_mgn12,PETG
 15,1,top_mgn12,PETG
 16,4,DIN 912 M3 35 mm,- None -
@@ -23,6 +23,8 @@ Item No.,Quantity,Name,Material
 22,2,DIN 912 M5 45 mm,- None -
 23,2,M5  Hex nut Nyloc,- None -
 24,1,bottom_mgn12_short_duct,PETG
-25,2,DIN 912 M3 12 mm,- None -
+25,5,DIN 912 M3 12 mm,- None -
 26,1,Duct v2.1 Straight,PETG
 27,1,v6_shroud,PETG
+28,1,cable_holder,PETG
+29,1,unversal_cable_mount,PETG
