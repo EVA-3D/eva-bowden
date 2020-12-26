@@ -17,15 +17,11 @@ Item,Quantity,Name,Material
 16,1,Duct v2.1 Straight,PETG
 17,1,cable_holder,PETG
 18,1,unversal_cable_mount,PETG
-19,1,V6-175-SINK,- None -
-20,1,V6-175-BREAK,- None -
-21,1,V6-BLOCK-CARTRIDGE,- None -
-22,1,V6-NOZZLE-ALL,- None -
-23,1,SOCK,- None -
-24,1,4010 FAN,- None -
-25,4,DIN 912 M3 20 mm,Hardened Alloy Steel
-26,1,universal_face,PETG
-27,2,face_belt_grabber,PETG
-28,1,v6_face,PETG
-29,1,v6_face_clamp,PETG
-30,1,shroud,PETG
+19,1,4010 FAN,- None -
+20,4,DIN 912 M3 20 mm,Hardened Alloy Steel
+21,1,Dragon hotend,- None -
+22,1,universal_face,PETG
+23,2,face_belt_grabber,PETG
+24,1,dragon_face,PETG
+25,1,shroud,PETG
+26,1,PC4-M6,- None -
