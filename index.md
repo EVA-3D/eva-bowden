@@ -14,6 +14,11 @@ As I don't expect this one to be used much on CoreXY machines it will come handy
 
     ![](assets/PC4-M6.png)
 
+    Make sure to get the connector that allows the bowden to go through it:
+
+    ![](assets/PC4-M6_through.png)
+
+
 ### Links
 
 {{ eva_download_button("bowden") }}

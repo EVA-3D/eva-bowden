@@ -23,5 +23,7 @@ Item,Quantity,Name,Material
 22,1,universal_face,PETG
 23,2,face_belt_grabber,PETG
 24,1,dragon_face,PETG
-25,1,shroud,PETG
-26,1,PC4-M6,- None -
+25,1,v6_support,PETG
+26,1,shroud,PETG
+27,1,PC4-M6,- None -
+28,1,PTFE 60mm,- None -
