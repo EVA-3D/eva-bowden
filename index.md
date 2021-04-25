@@ -1,12 +1,25 @@
 ---
+title: Bowden
+uid: EVA / Bowden
+type: drive
 badges:
     - Official
+contributors: 
+    - pkucmus
+repo_url: https://github.com/EVA-3D/eva-bowden
+cad_url: https://cad.onshape.com/documents/1765b04fac582f6c1c470bd3/w/1cc31596374d6ce51cd23fa9/e/97f38bca98acd8d24f463d78
+satisfies:
+    - drive
 ---
 # Bowden
 
-![preview](assets/Bowden.__ALL__.png)
+![preview](assets/Bowden.png)
 
 As I don't expect this one to be used much on CoreXY machines it will come handy for some V-casts or cantilever printers. EVA 2 / Bowden is built with the base parts of EVA that are later on "remixed" to achieve different drive types.
+
+!!! info "Universal EVA Front"
+
+    This drive uses the universal face, which means it's comatible with all hotends you can find in the Hotends section.
 
 ??? info "PC4-M6"
 
@@ -18,31 +31,31 @@ As I don't expect this one to be used much on CoreXY machines it will come handy
 
     ![](assets/PC4-M6_through.png)
 
-??? notice "MGN15"
+### Bill of materials
 
-    To mount EVA / Bowden on a MGN15C carriage you will need a few different than the default parts and a few longer screws. The BOM replaces **only a few parts and screws** from the default BOM - for MGN15C you need to look at both - **what follows is not the full MGN15C BOM**.
 
-{{ bom("drives/bowden/bom/BOM_Bowden.MGN15.csv", 4) }}
+=== "MGN12"
+
+    <add-bom-button name="{{ meta.uid }} (MGN12)">
+        {{ bom_to_json("Bowden.MGN12.csv") }}
+    </add-bom-button>
+    
+    {{ bom_to_md_table("Bowden.MGN12.csv", 4) }}
+
+
+=== "MGN15"
+
+    <add-bom-button name="{{ meta.uid }} (MGN15)">
+        {{ bom_to_json("Bowden.MGN15.csv") }}
+    </add-bom-button>
+    
+    {{ bom_to_md_table("Bowden.MGN15.csv", 4) }}
 
 
 ### Links
 
-{{ eva_download_button("bowden") }}
+{{ eva_download_button() }}
 
-{{ eva_link("bowden") }}
+{{ repo_url }}
 
-{{ onshape_link("bowden") }}
-
-### BOM
-
-=== "E3D V6"
-
-{{ bom("drives/bowden/bom/BOM_[Assembly]_V6.csv", 4) }}
-
-=== "Mosquito"
-
-{{ bom("drives/bowden/bom/BOM_[Assembly]_mosquito.csv", 4) }}
-
-=== "Dragon"
-
-{{ bom("drives/bowden/bom/BOM_[Assembly]_dragon.csv", 4) }}
+{{ cad_url }}
