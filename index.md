@@ -54,7 +54,8 @@ As I don't expect this one to be used much on CoreXY machines it will come handy
 
 ### Links
 
-{{ eva_download_button() }}
+{{ download_button }}
+{{ cad_link }}
 
 {{ repo_url }}
 
