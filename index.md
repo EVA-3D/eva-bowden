@@ -56,7 +56,3 @@ As I don't expect this one to be used much on CoreXY machines it will come handy
 
 {{ download_button }}
 {{ cad_link }}
-
-{{ repo_url }}
-
-{{ cad_url }}
